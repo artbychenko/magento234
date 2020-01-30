@@ -1,0 +1,13 @@
+<!--
+/**
+ * Theme declaration file
+ *
+ * @author Artem Bychenko <artbychenko@gmail.com>
+ * @package adminhtml/Andronoid/Default
+ */
+-->
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>Andronoid Admin Default Theme</title>
+    <parent>Magento/backend</parent>
+</theme>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Dependency injection file
+ *
+ * @author Artem Bychenko <artbychenko@gmail.com>
+ * @package Andronoid_Backend
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <!-- Admin theme. Start -->
+    <type name="Magento\Theme\Model\View\Design">
+        <arguments>
+            <argument name="themes" xsi:type="array">
+                <item name="adminhtml" xsi:type="string">Andronoid/Default</item>
+            </argument>
+        </arguments>
+    </type>
+    <!-- Admin theme. End -->
+</config>
