@@ -1,0 +1,20 @@
+{
+    "name": "base/module-store",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/module-store": "101.0.*",
+        "magento/module-catalog": "103.0.*",
+        "magento/framework": "102.0.*"
+    },
+    "description": "Canon store structure setup",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Base\\Store\\": ""
+        }
+    }
+}
