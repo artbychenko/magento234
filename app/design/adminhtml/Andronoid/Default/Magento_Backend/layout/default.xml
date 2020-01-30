@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Layout for the admin panel page
+ *
+ * @author Artem Bychenko <artbychenko@gmail.com>
+ * @package adminhtml/Andronoid/Default
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceBlock name="logo">
+			<arguments>
+				<argument name="logo_image_src" xsi:type="string">images/logo-square.gif</argument>
+			</arguments>
+		</referenceBlock>
+	</body>
+</page>

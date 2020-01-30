@@ -1,0 +1,18 @@
+{
+    "name": "andronoid/module-backend",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/module-backend": "101.0.*"
+    },
+    "description": "Set adminhtml/Andronoid/Default theme",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Andronoid\\Backend\\": ""
+        }
+    }
+}

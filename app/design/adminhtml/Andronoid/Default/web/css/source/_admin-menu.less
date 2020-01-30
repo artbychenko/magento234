@@ -1,0 +1,14 @@
+.menu-wrapper {
+    &:before {
+        border-right: 1px solid @color-brownie-vanilla;
+    }
+
+    .admin__menu .level-0:hover > a {
+        cursor: pointer;
+    }
+
+    .admin__menu .level-0:not(._active):hover > a {
+        background-color: transparent;
+        color: @color-brownie-almost;
+    }
+}
